@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  display: block;
+}
+
+body{
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+#root{
+  background-color: #1C1C1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  width: 550px;
+  height: 868px;
+  background: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--heading-container{
+  width: 100%;
+  text-align: center;
+  padding-block: 21px;
+}
+
+.card--dark{
+  width: 317px;
+  height: 780px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card--heading{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.card--title{
+  font-weight: 400;
+  font-size: 12.8px;
+  text-align: center;
+  color: #F3BF99;
+  margin: 6.19px 0 8.81px 0;
+}
+
+.card--website{
+  font-weight: 400;
+  font-size: 10.24px;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.card--button-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.card--button-email , .card--button-linkedln{
+  width: 115px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 6px;
+  gap: 8px;
+}
+
+.card--button-email{
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: #374151;
+}
+
+.card--button-linkedln{
+  background: #5093E2;
+  color: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card--about{
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+
+.card--about h3{
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #F5F5F5;
+}
+
+.card--about > div{
+  max-width: 247px;
+  width: 247px;
+}
+
+.card--about p{
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #DCDCDC;
+}
+
+footer{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+footer img{
+  width: 25px;
+  height: 25px;
+}
